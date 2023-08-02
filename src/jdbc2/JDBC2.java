@@ -55,6 +55,10 @@ public class JDBC2 {
 		{
 			System.out.println(e);
 		}
+		//mr ummar you need to add finaly and close all the open connection for some resion
+		finnaly{
+			con.close();
+		}
 	}
 		
 }

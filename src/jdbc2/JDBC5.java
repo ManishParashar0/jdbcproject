@@ -177,5 +177,8 @@ public class JDBC5 {
 			{
 				System.out.println(e);
 			}
+		finaly{
+			con.close();
+		}
 	}
 }
